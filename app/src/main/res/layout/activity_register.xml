@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shioka.navigationdrawer.Activities.LoginActivity"
+    android:background="@color/colorPrimaryMedium" >
+
+    <EditText
+        android:id="@+id/txtRegisterUser"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtRegisterEmail"
+        android:layout_alignStart="@+id/txtRegisterEmail"
+        android:layout_marginBottom="80dp"
+        android:hint="Introduce your username "
+        android:singleLine="true"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/txtRegisterEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="206dp"
+        android:hint="Introduce your email"
+        android:singleLine="true"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/txtRegisterPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtRegisterEmail"
+        android:layout_below="@+id/txtRegisterEmail"
+        android:layout_marginTop="38dp"
+        android:hint="Introduce your password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtRegisterPassword"
+        android:layout_below="@+id/txtRegisterPassword"
+        android:layout_marginTop="39dp"
+        android:hint="Confirm your password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@color/colorAccent"
+        android:text="Register"
+        android:textColor="@color/colorText" />
+
+</RelativeLayout>

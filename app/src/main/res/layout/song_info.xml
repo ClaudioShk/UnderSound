@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/imgViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/txtViewTitleInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Tilte: "
+        android:textColor="@color/colorText"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtViewArtistInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Artist: "
+        android:textColor="@color/colorText"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtViewAlbumInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Album: "
+        android:textColor="@color/colorText"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btnPreview"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Preview"
+            android:textColor="@color/colorText"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Buy this Song"
+            android:textColor="@color/colorText"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

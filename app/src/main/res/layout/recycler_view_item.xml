@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="#E2E2E2"
+    card_view:cardCornerRadius="4dp"
+    android:backgroundTint="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imgViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_music_note"/>
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="167dp"
+        android:paddingLeft="10dp"
+        android:text="Title"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorPrimaryTransparent"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtViewArtist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="210dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:text="Artist"
+            android:textSize="20dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txtViewAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="210dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:text="Album"
+            android:textSize="20dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UnderSound</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Search Song</string>
+    <string name="contact_us">
+        If you are interested in sharing your work on our platform, or if you have a suggestion for us, you are free to send an email and we will assist you as quickly as possible.
+        \n\nWe look forward to your work and contributions.
+        \n\nAttentively: \nUnderGround Co.
+    </string>
+    <string name="about">
+        UnderSound\n\n
+        App Version:\n1.0.0
+        \n\n© 2018 Abyss Co.
+        \nAll rights reserved
+    </string>
+</resources>

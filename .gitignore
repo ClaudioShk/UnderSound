@@ -1,0 +1,9 @@
+*.iml
+.gradle
+/local.properties
+/.song/workspace.xml
+/.song/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
